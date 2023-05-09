@@ -1,5 +1,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100%" viewBox="0 0 470 65" enable-background="new 0 0 470 65" xml:space="preserve">
+<g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" fill="#000" style="stroke:#000;stroke-width:0.25mm;fill:#000">
 <path fill="#000000" opacity="1.000000" stroke="none" 
 	d="
 M361.000000,66.000000 
@@ -2171,4 +2172,5 @@ M409.391113,26.994165
 	C411.586365,22.011412 412.860504,22.368416 412.918457,24.347431 
 	C412.983978,26.583340 411.588501,27.011133 409.391113,26.994165 
 z"/>
+</g>
 </svg>
