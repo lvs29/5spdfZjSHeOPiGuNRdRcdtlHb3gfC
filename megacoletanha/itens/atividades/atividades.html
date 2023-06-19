@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividades de ciências</title>
+        <style>
+            @keyframes slide-in-bottom {
+                from {
+                    transform: translateY(100%);
+                        opacity: 0;
+                    }
+                    to {
+                        transform: translateY(0);
+                        opacity: 1;
+                    }
+                }
+            .content {
+                animation: slide-in-bottom 1s ease-out;
+            }
+            body {
+                background-color: tomato;
+            }
+            h1 {
+                text-align: center;
+                font-size: 100px;
+                color: aliceblue;
+                font-family: 'Comfortaa';
+                text-shadow: 0px 0px 10px black;
+            }
+            embed {
+                width: 550px;
+                height: 300px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px black;
+            }
+            select {
+                width: 350px;
+                height: 100px;
+                background-color: rgb(7, 45, 82);
+                color: aliceblue;
+                border-radius: 10px;
+                box-shadow: 0 0 10px black;
+                margin-left: 375px;
+                margin-right: 375px;
+                margin-top: 20px;
+                font-size: 25px;
+                text-align: center;
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+            }
+
+            .embed {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .itens {
+                margin-left: auto;
+                margin-right: auto;
+                background-color: rgba(0, 0, 0, 0.4);
+                border-radius: 10px;
+                width: 1100px;
+                height: 500px;
+            }
+            .top {
+                width: 100%;
+                height: 75px;
+                background-color: black;
+                align-items: center;
+                border-radius: 10px;
+            }
+        </style>
+        <script>
+            function mostrarPDF() {
+                var selectElement = document.getElementById("pag");
+                var selectedOption = selectElement.value;
+                var pdfElement = document.getElementById("PDFviwer");
+
+                if (selectedOption === "38-40") {
+                    pdfElement.setAttribute("src", "paginas/pag38-40.pdf");
+                } else if (selectedOption ==="42") {
+                    pdfElement.setAttribute("src", "paginas/pag42.pdf");
+                } else if (selectedOption ==="57-58") {
+                    pdfElement.setAttribute("src", "paginas/pag57-58.pdf");
+                } else if (selectedOption ==="60-61") {
+                    pdfElement.setAttribute("src", "paginas/pag60-61.pdf");
+                } else if (selectedOption ==="70-73") {
+                    pdfElement.setAttribute("src", "paginas/pag70-73.pdf");
+                } else if (selectedOption ==="91-93") {
+                    pdfElement.setAttribute("src", "paginas/pag91-93.pdf");
+                } else if (selectedOption ==="104-105") {
+                    pdfElement.setAttribute("src", "paginas/pag104-105.pdf");
+                } else if (selectedOption ==="119-121") {
+                    pdfElement.setAttribute("src", "paginas/pag119-121.pdf");
+                } else if (selectedOption ==="137-139") {
+                    pdfElement.setAttribute("src", "paginas/pag137-139.pdf");
+                } else if (selectedOption ==="152-155") {
+                    pdfElement.setAttribute("src", "paginas/pag152-155.pdf");
+                } else if (selectedOption ==="170-173") {
+                    pdfElement.setAttribute("src", "paginas/pag170-173.pdf");
+                } else if (selectedOption ==="190-193") {
+                    pdfElement.setAttribute("src", "paginas/pag190-193.pdf");
+                } else if (selectedOption ==="212-213") {
+                    pdfElement.setAttribute("src", "paginas/pag212-213.pdf");
+                } else if (selectedOption ==="226-229") {
+                    pdfElement.setAttribute("src", "paginas/pag226-229.pdf");
+                } else if (selectedOption ==="247-249") {
+                    pdfElement.setAttribute("src", "paginas/pag247-249.pdf");
+                } else {
+                    pdfElement.setAttribute("src", "paginas/0.png")
+                } 
+            }
+          </script>
+    </head>
+    <body>
+        <div class="top">
+
+        </div>
+        <div class="content">
+            <h1>Atividades de Ciências</h1>
+            <br>
+            <div class="itens ">
+                <select id="pag" onchange="mostrarPDF()">
+                    <option value="0">Página</option>
+                    <option value="38-40">pag 38-40</option>
+                    <option value="42">pag 42</option>
+                    <option value="57-58">pag 57-58</option>
+                    <option value="60-61">pag 60-61</option>
+                    <option value="70-73">pag 70-73</option>
+                    <option value="91-93">pag 91-93</option>
+                    <option value="104-105">pag 104-105</option>
+                    <option value="119-121">pag 119-121</option>
+                    <option value="137-139">pag 137-139</option>
+                    <option value="152-155">pag 152-155</option>
+                    <option value="170-173">pag 170-173</option>
+                    <option value="190-193">pag 190-193</option>
+                    <option value="212-213">pag 212-213</option>
+                    <option value="226-229">pag 226-229</option>
+                    <option value="247-249">pag 247-249</option>
+                </select>
+                <div class="embed">
+                    <embed id="PDFviwer" src="paginas/0.png" type="application/pdf">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+=======
+
+>>>>>>> 47a9afae83b9e842cb3c0942f9cee52647d6a2ed
